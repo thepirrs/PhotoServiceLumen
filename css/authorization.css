@@ -1,0 +1,101 @@
+.modal-content {
+  border-radius: 20px;
+  border: 0.5px solid #000;
+  padding: 45px;
+  text-align: center;
+}
+
+.logo__img {
+  width: 30%;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 97%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.reg__enterBtn {
+  color: #ffffff;
+  border-radius: 20px;
+  border: 0.5px solid #000;
+  background: #000000;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: color 0.3s;
+  margin-bottom: 35px;
+}
+
+.reg__enterBtn:hover {
+  background: #f8f8f8;
+  color: #000000;
+}
+
+.message {
+  text-align: center;
+}
+
+.allforms {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register__form {
+  margin-bottom: 25px;
+}
+
+.register,
+.register__text {
+  display: inline-block;
+}
+
+.register__name {
+  margin-bottom: 25px;
+}
+
+#showRegistrationForm, #showLoginForm {
+  border-bottom: 0.5px solid #000000;
+  cursor: pointer;
+  font-weight: 500
+}
+
+#showRegistrationForm:hover, #showLoginForm:hover {
+  border-bottom: 0.5px solid #ffffff;
+}
+
+@media screen and (min-width:0px) and (max-width:1025px) {
+.modal-content {
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+}
+
+@media screen and (min-width:0px) and (max-width:750px) {
+.modal-content {
+  flex: 0 0 55%;
+  max-width: 55%;
+}
+}
+
+@media screen and (min-width:0px) and (max-width:590px) {
+.modal-content {
+  flex: 0 0 65%;
+  max-width: 65%;
+}
+}
+
+@media screen and (min-width:0px) and (max-width:405px) {
+.modal-content {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+}

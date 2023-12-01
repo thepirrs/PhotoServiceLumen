@@ -1,0 +1,182 @@
+.fon__image {
+  height: 280px;
+  object-fit: cover;
+}
+
+.portfolio__fon {
+  position: relative;
+}
+
+.editfon__btn {
+  position: absolute;
+  width: 40px;
+  top: 10%;
+  left: 95%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.card__items,
+.portfilio__btnadd {
+  text-align: center;
+}
+
+.card__photo {
+  width: 230px;
+  height: 280px;
+}
+
+.card__items {
+  margin-bottom: 25px;
+}
+
+.portfolio__block, .account__services, .account__reviews {
+  margin-top: 40px;
+}
+
+.cross__img {
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+}
+
+.portfilio__btnadd {
+  margin-bottom: 30px;
+}
+
+.addphoto__btn {
+  color: #000000;
+  border-radius: 20px;
+  border: 0.5px solid #000;
+  background: #ffffff;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: color 0.3s;
+}
+
+.addphoto__btn:hover {
+  color: #ffffff;
+  border: 0.5px solid #000;
+  background: #000000;
+}
+
+.custom-file-upload input[type="file"] {
+  margin-top: 15px;
+}
+
+.delete__button, .fon_btn {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card__photo-container {
+  position: relative;
+}
+
+.card__button {
+  position: absolute;
+  width: 25px;
+  top: 88%;
+  left: 80%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.card__button2 {
+  position: absolute;
+  width: 22px;
+  top: 88%;
+  left: 12%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width:0px) and (max-width:1050px) {
+  .card__items {
+		flex: 0 0 33.333333%; /*flex-basis 0 flex-grow 0 и размер блока*/
+		max-width: 33.333333%;
+  }
+
+  .card__button {
+    top: 88%;
+    left: 75%;
+  }
+  
+  .card__button2 {
+    top: 88%;
+    left: 17%;
+  }
+
+  .editfon__btn {
+    left: 93%;
+  }
+}
+
+@media screen and (min-width:0px) and (max-width:750px) {
+  .card__items {
+		flex: 0 0 50%; /*flex-basis 0 flex-grow 0 и размер блока*/
+		max-width: 50%;
+  }
+
+  .editfon__btn {
+    left: 90%;
+  }
+}
+
+@media screen and (min-width:0px) and (max-width:500px) {
+  .card__items {
+		flex: 0 0 100%; /*flex-basis 0 flex-grow 0 и размер блока*/
+		max-width: 100%;
+  }
+
+  .card__button {
+    top: 88%;
+    left: 68%;
+  }
+  
+  .card__button2 {
+    top: 88%;
+    left: 28%;
+  }
+
+  .editfon__btn {
+    left: 87%;
+  }
+}
