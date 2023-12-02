@@ -63,7 +63,7 @@
 <br>
 <b>Ошибка 404.</b><br>
 <img src="/github_files/github_screenshots/Screenshot_16.png">
-## Инструкция
+## Информация
 Файл базы данных расположен по пути github_files/github_database.
 
 
